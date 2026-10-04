@@ -4,25 +4,18 @@ Repositori ini adalah kurikulum lengkap pembelajaran **TypeScript dari dasar** y
 
 ---
 
-## 📚 Struktur 3 Modul Pembelajaran
+## 📚 Struktur 6 Modul Pembelajaran
 
 ```text
 ├── materi/
-│   ├── 01-fundamentals/          # 26 Pelajaran Dasar (Node.js + TSX)
-│   │   ├── 01-hello-typescript/
-│   │   ├── ...
-│   │   └── 26-mini-challenge/
-│   ├── 02-dom-events-project/    # 3 Proyek Game & Web Interaktif (Vite)
-│   │   ├── 00-pengenalan-dom/
-│   │   ├── 01-guess-my-number/
-│   │   ├── 02-modal-window/
-│   │   └── 03-pig-game/
-│   └── 03-behind-the-scenes/     # 10 Pelajaran Cara Kerja JS/TS di Balik Layar
-│       ├── 01-gambaran-besar-javascript/
-│       ├── ...
-│       └── 10-shallow-vs-deep-copy/
+│   ├── 01-fundamentals/                    # 26 Pelajaran Dasar (Node.js + TSX)
+│   ├── 02-dom-events-project/              # 3 Proyek Game & Web Interaktif (Vite)
+│   ├── 03-behind-the-scenes/               # 10 Pelajaran Cara Kerja JS/TS di Balik Layar
+│   ├── 04-data-structures-operators-strings# 17 Pelajaran + 1 Final Challenge Analisis Data
+│   ├── 05-closer-look-functions/           # 11 Pelajaran + 1 Challenge Aplikasi Polling
+│   └── 06-oop-typescript/                  # 14 Pelajaran + 1 Proyek Sistem Bank (Bankist)
 ├── src/
-│   └── index.ts                  # Playground bebas
+│   └── index.ts                            # Playground bebas
 ├── package.json
 └── tsconfig.json
 ```
@@ -47,17 +40,35 @@ Membangun aplikasi web dan game interaktif di browser menggunakan Vanilla TypeSc
 Mendalami arsitektur mesin dan memori komputer:
 - `V8 Engine & Runtime`, `Type Erasure saat kompilasi`, `Execution Context & Call Stack`, `Lexical Scoping & Scope Chain`, `Hoisting & TDZ`, `Keyword this & Call-Site Binding`, `Regular vs Arrow Function`, `Call Stack (Primitif) vs Memory Heap (Reference)`, `Shallow Copy vs Deep Copy (structuredClone)`.
 
+### 4️⃣ [Modul 4: Data Structures, Modern Operators & Strings](./materi/04-data-structures-operators-strings/README.md)
+Struktur data modern, operator mutakhir, dan pengolahan teks:
+- **Bagian A (Destructuring & Spread/Rest)**: Array & Object Destructuring, Spread `...`, Rest Pattern `...`.
+- **Bagian B (Operator Modern)**: Short-Circuit `&&` / `||`, Nullish Coalescing `??`, Logical Assignment `||=` `&&=` `??=`, Loop `for...of`, Enhanced Object Literal, Optional Chaining `?.`, Looping Object (`keys`, `values`, `entries`).
+- **Bagian C (Set & Map)**: `Set<T>`, `Map<K, V>`, Iterasi & Konversi Map, Tabel Keputusan Pemilihan Struktur Data.
+- **Bagian D (String)**: Method String Bagian 1 & 2 (`slice`, `replace`, `split`, `join`, `padStart`, `repeat`, Masking Data).
+- **🏆 18. Final Challenge**: Statistik Pertandingan Sepak Bola & Log Parser Penerbangan.
+
+### 5️⃣ [Modul 5: A Closer Look at Functions](./materi/05-closer-look-functions/README.md)
+Mendalami fungsionalitas tingkat lanjut (*Advanced Functions*):
+- `Default Parameter Lanjutan`, `Passing Arguments (Value vs Reference)`, `First-Class & Higher-Order Functions`, `Callback Abstraction`, `Fungsi Mengembalikan Fungsi (Currying)`, `call & apply`, `bind & Partial Application`, `IIFE`, `Closure Dasar & Execution Context`, `Closure Lanjutan (Timer & Private State)`, `Bonus: Generics Dasar <T>`.
+- **🏆 12. Challenge**: Sistem Aplikasi Polling Suara Interaktif.
+
+### 6️⃣ [Modul 6: Object-Oriented Programming (OOP) dengan TypeScript](./materi/06-oop-typescript/README.md)
+Pemrograman Berorientasi Objek modern standar industri:
+- `4 Pilar OOP`, `Constructor Function & Operator new`, `Prototype & Prototype Chain`, `ES6 Class & TS Parameter Properties`, `Getter & Setter`, `Static Members`, `Inheritance (extends & super)`, `Access Modifiers (public, private, protected vs #private)`, `readonly Modifier`, `Interface & implements`, `Abstract Class & Methods`, `Polimorfisme`, `Method Chaining (return this)`, `Generic Class <T>`.
+- **🏆 15. Proyek Akhir**: Sistem Manajemen Perbankan Bankist OOP.
+
 ---
 
 ## 🚀 Cara Menjalankan Materi
 
-### 1. Menjalankan File Modul 1 & Modul 3 (Terminal/Node.js)
+### 1. Menjalankan File Materi Node.js (Modul 1, 3, 4, 5, 6)
 ```bash
 # Mode Watch (Otomatis reload setiap Ctrl + S):
-npm run materi -- materi/01-fundamentals/01-hello-typescript/contoh.ts
+npm run materi -- materi/04-data-structures-operators-strings/01-destructuring-array/contoh.ts
 
 # Jalankan sekali:
-npm run jalankan -- materi/01-fundamentals/26-mini-challenge/solusi.ts
+npm run jalankan -- materi/06-oop-typescript/15-proyek-sistem-bank/solusi.ts
 
 # Verifikasi tidak ada error tipe di seluruh materi:
 npm run typecheck
