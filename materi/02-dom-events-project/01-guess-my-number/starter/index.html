@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number! 🎲</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tebak Angka Rahasia!</h1>
+      <p class="between">(Antara 1 sampai 20)</p>
+      <button class="btn again">Main Lagi!</button>
+      <div class="number">?</div>
+    </header>
+
+    <main>
+      <section class="left">
+        <input type="number" class="guess" min="1" max="20" placeholder="?" />
+        <button class="btn check">Cek! 🎯</button>
+      </section>
+
+      <section class="right">
+        <p class="message">Mulai menebak...</p>
+        <p class="label-score">💯 Skor: <span class="score">20</span></p>
+        <p class="label-highscore">🥇 Skor Tertinggi: <span class="highscore">0</span></p>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

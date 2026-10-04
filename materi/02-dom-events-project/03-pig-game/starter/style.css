@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333333;
+  background: linear-gradient(135deg, #780206 0%, #061161 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* --- Container Utama Permainan --- */
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+}
+
+/* --- Kartu Sisi Pemain --- */
+.player {
+  flex: 50%;
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.name {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.score {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #c7365f;
+  margin-bottom: auto;
+}
+
+.player--active {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.player--active .name {
+  font-weight: 800;
+  color: #111827;
+}
+
+.player--active .score {
+  font-weight: 400;
+}
+
+.player--winner {
+  background: linear-gradient(135deg, #10b981 0%, #047857 100%) !important;
+}
+
+.player--winner .name {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.player--winner .score {
+  color: #ffffff;
+}
+
+/* --- Kotak Skor Sementara (Current Score) --- */
+.current {
+  background: linear-gradient(135deg, #c7365f 0%, #901c3d 100%);
+  opacity: 0.9;
+  border-radius: 12px;
+  color: #ffffff;
+  width: 65%;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.5s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.current-label {
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+  color: #f3f4f6;
+  font-weight: 600;
+}
+
+.current-score {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+/* --- Tombol Kontrol --- */
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444444;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 1.2rem 2.8rem;
+  border-radius: 50rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  transform: translateX(-50%) translateY(-2px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}
+
+.btn:active {
+  transform: translateX(-50%) translateY(1px);
+}
+
+.btn--new {
+  top: 4rem;
+}
+
+.btn--roll {
+  top: 39rem;
+}
+
+.btn--hold {
+  top: 46rem;
+}
+
+/* --- Elemen Visual Dadu --- */
+.dice {
+  position: absolute;
+  left: 50%;
+  top: 17rem;
+  transform: translateX(-50%);
+  width: 13rem;
+  height: 13rem;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hidden {
+  display: none !important;
+}

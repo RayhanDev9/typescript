@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Window Interaktif 🪟</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Komponen Modal Window</h1>
+      <p class="subtitle">Klik salah satu tombol di bawah untuk memunculkan jendela popup interaktif</p>
+
+      <div class="button-group">
+        <button class="btn show-modal">Buka Modal 1 🚀</button>
+        <button class="btn show-modal">Buka Modal 2 💡</button>
+        <button class="btn show-modal">Buka Modal 3 ⚙️</button>
+      </div>
+    </div>
+
+    <!-- Jendela Modal (Awalnya tersembunyi dengan class hidden) -->
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2>Selamat Datang di Modal! 🎉</h2>
+      <p>
+        Ini adalah jendela modal yang dikendalikan secara penuh oleh <strong>TypeScript</strong>.
+        Kamu bisa menutup jendela ini dengan mengklik tombol <strong>✕</strong>, mengklik area <strong>Overlay gelap di luar</strong>, atau menekan tombol <strong>Escape (ESC)</strong> pada keyboard.
+      </p>
+    </div>
+
+    <!-- Latar Belakang Buram -->
+    <div class="overlay hidden"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

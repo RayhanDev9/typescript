@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Outfit:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #eeeeee;
+  background-color: #222222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  transition: background-color 0.4s ease;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  width: 100%;
+  max-width: 900px;
+  border-bottom: 7px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 65vh;
+  width: 100%;
+  max-width: 900px;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.right {
+  width: 50%;
+  font-size: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+h1 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.between {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #aaaaaa;
+}
+
+.again {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eeeeee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 4.5rem;
+  padding: 1.5rem;
+  width: 22rem;
+  text-align: center;
+  display: block;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.guess:focus {
+  border-color: #f7df1e;
+}
+
+.btn {
+  border: none;
+  background-color: #eeeeee;
+  color: #222222;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.4rem 2.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #cccccc;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.number {
+  background: #eeeeee;
+  color: #222222;
+  font-family: "Press Start 2P", monospace;
+  font-size: 5.5rem;
+  width: 14rem;
+  padding: 2.5rem 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+
+.message {
+  margin-bottom: 2rem;
+  height: 3rem;
+  font-weight: 600;
+}
+
+.label-score,
+.label-highscore {
+  margin-bottom: 1.5rem;
+}
