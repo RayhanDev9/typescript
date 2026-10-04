@@ -1,0 +1,19 @@
+# Dependensi
+node_modules/
+
+# Hasil kompilasi build
+dist/
+
+# File log & cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tsbuildinfo
+
+# File sistem & IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/

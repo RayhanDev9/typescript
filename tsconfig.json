@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Bahasa & Target Versi JavaScript Hasil Kompilasi */
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+
+    /* Library bawaan: hanya fitur JavaScript (tanpa DOM/browser).
+       Modul DOM (02-dom-events-project) punya tsconfig sendiri. */
+    "lib": ["ES2022"],
+    "types": ["node"],
+
+    /* Setiap file dianggap modul terpisah, jadi variabel dengan nama
+       yang sama di contoh.ts, latihan.ts, dan solusi.ts tidak bentrok. */
+    "moduleDetection": "force",
+
+    /* Struktur Folder */
+    "rootDir": "./",
+    "outDir": "./dist",
+
+    /* Mode Ketat (Strict Type-Checking) */
+    "strict": true,
+
+    /* Kompatibilitas Modul & Library */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "materi/**/*.ts"],
+  "exclude": ["node_modules", "dist", "materi/02-dom-events-project"]
+}
