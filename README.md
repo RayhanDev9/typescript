@@ -4,7 +4,7 @@ Repositori ini adalah kurikulum lengkap pembelajaran **TypeScript dari dasar** y
 
 ---
 
-## 📚 Struktur 6 Modul Pembelajaran
+## 📚 Struktur 8 Modul Pembelajaran
 
 ```text
 ├── materi/
@@ -13,7 +13,9 @@ Repositori ini adalah kurikulum lengkap pembelajaran **TypeScript dari dasar** y
 │   ├── 03-behind-the-scenes/               # 10 Pelajaran Cara Kerja JS/TS di Balik Layar
 │   ├── 04-data-structures-operators-strings# 17 Pelajaran + 1 Final Challenge Analisis Data
 │   ├── 05-closer-look-functions/           # 11 Pelajaran + 1 Challenge Aplikasi Polling
-│   └── 06-oop-typescript/                  # 14 Pelajaran + 1 Proyek Sistem Bank (Bankist)
+│   ├── 06-oop-typescript/                  # 14 Pelajaran + 1 Proyek Sistem Bank (Bankist)
+│   ├── 07-asynchronous-typescript/         # 12 Pelajaran + 1 Challenge Data Fetcher API
+│   └── 08-modern-typescript-development/   # 12 Pelajaran + 1 Capstone FP Data Pipeline
 ├── src/
 │   └── index.ts                            # Playground bebas
 ├── package.json
@@ -58,17 +60,28 @@ Pemrograman Berorientasi Objek modern standar industri:
 - `4 Pilar OOP`, `Constructor Function & Operator new`, `Prototype & Prototype Chain`, `ES6 Class & TS Parameter Properties`, `Getter & Setter`, `Static Members`, `Inheritance (extends & super)`, `Access Modifiers (public, private, protected vs #private)`, `readonly Modifier`, `Interface & implements`, `Abstract Class & Methods`, `Polimorfisme`, `Method Chaining (return this)`, `Generic Class <T>`.
 - **🏆 15. Proyek Akhir**: Sistem Manajemen Perbankan Bankist OOP.
 
+### 7️⃣ [Modul 7: Asynchronous TypeScript](./materi/07-asynchronous-typescript/README.md)
+Pemrograman asinkron modern untuk pengolahan API dan proses latar belakang:
+- `Pengenalan Asynchronous`, `Callback & Callback Hell`, `Konsep Promise (Pending, Fulfilled, Rejected)`, `Consuming Promise (.then, .catch, .finally)`, `Fetch API & AJAX Modern`, `Error Handling Promise`, `Async / Await Dasar`, `Error Handling try...catch`, `Returning Values from Async Functions`, `Promise Paralel (Promise.all)`, `Promise Combinators (allSettled, race, any)`, `Behind the Scenes: Event Loop & Microtask Queue`.
+- **🏆 13. Coding Challenge**: GitHub User & Repository Explorer Dashboard.
+
+### 8️⃣ [Modul 8: Modern TypeScript Development & Functional Programming](./materi/08-modern-typescript-development/README.md)
+Arsitektur modular, ekosistem tooling, dan paradigma fungsional modern:
+- `Arsitektur Web Modern Overview`, `ES Modules (Export & Import)`, `Type-Only Export & Import`, `CommonJS vs ES Modules`, `Package Manager & NPM (SemVer, DevDependencies)`, `Modern Tooling & Bundler (Vite, esbuild, Minification, Source Maps)`, `Paradigma Functional Programming (FP)`, `Pure Functions & Side Effects`, `Immutability & Deep Updates`, `Higher-Order Functions (HOF)`, `Currying & Partial Application`, `Function Composition & Piping`.
+- **🏆 13. Capstone Challenge**: E-Commerce Transaction & Data Processing Pipeline.
+
 ---
 
 ## 🚀 Cara Menjalankan Materi
 
-### 1. Menjalankan File Materi Node.js (Modul 1, 3, 4, 5, 6)
+### 1. Menjalankan File Materi Node.js (Modul 1, 3, 4, 5, 6, 7, 8)
 ```bash
 # Mode Watch (Otomatis reload setiap Ctrl + S):
 npm run materi -- materi/04-data-structures-operators-strings/01-destructuring-array/contoh.ts
 
 # Jalankan sekali:
-npm run jalankan -- materi/06-oop-typescript/15-proyek-sistem-bank/solusi.ts
+npm run jalankan -- materi/07-asynchronous-typescript/13-challenge-aplikasi-data-fetcher/solusi.ts
+npm run jalankan -- materi/08-modern-typescript-development/13-challenge-modern-fp-pipeline/solusi.ts
 
 # Verifikasi tidak ada error tipe di seluruh materi:
 npm run typecheck
