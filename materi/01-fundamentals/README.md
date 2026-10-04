@@ -51,4 +51,18 @@ npm run typecheck
 
 ### Bagian B: Fungsi & Struktur Data
 
-_(Segera hadir)_
+| # | Pelajaran | Topik Utama |
+| :-- | :--- | :--- |
+| 14 | [Strict Mode](./14-strict-mode/README.md) | `"use strict"`, `strict: true` di tsconfig, pencegahan silent bug |
+| 15 | [Fungsi](./15-fungsi/README.md) | Parameter, return, tipe parameter, tipe return, tipe `void` |
+| 16 | [Declaration vs Expression](./16-declaration-vs-expression/README.md) | Function declaration vs expression, tipe fungsi `(x: number) => number` |
+| 17 | [Arrow Function](./17-arrow-function/README.md) | Sintaks panah `=>`, implicit return, parameter opsional `?`, default |
+| 18 | [Fungsi Memanggil Fungsi](./18-fungsi-memanggil-fungsi/README.md) | Komposisi fungsi, prinsip DRY (Don't Repeat Yourself) |
+| 19 | [Array](./19-array/README.md) | Struktur array, `number[]`, `string[]`, tipe Tuple `[string, number]` |
+| 20 | [Method Array Dasar](./20-method-array-dasar/README.md) | `push`, `pop`, `shift`, `unshift`, `indexOf`, `includes` |
+| 21 | [Object](./21-object/README.md) | Key-value, dot vs bracket notation, `type` alias, `interface` |
+| 22 | [Method Object & `this`](./22-method-object-dan-this/README.md) | Method di dalam object, pengenalan keyword `this` |
+| 23 | [Loop `for`](./23-loop-for/README.md) | Struktur counter loop, `continue`, `break` |
+| 24 | [Loop Array & Bersarang](./24-loop-array-dan-bersarang/README.md) | Iterasi array dengan loop, loop mundur, loop bersarang (*nested*) |
+| 25 | [Loop `while`](./25-loop-while/README.md) | Perulangan kondisi dinamis, simulasi lempar dadu |
+| 26 | [Mini Challenge: Kalkulator Tip & Penilaian](./26-mini-challenge/README.md) | Proyek gabungan semua materi Bagian A & B |
