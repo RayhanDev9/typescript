@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 05 · Fetch API & AJAX Modern (Solusi)
-// ============================================================================
+// ============================================================
+// 05 · Fetch API & AJAX Modern — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/05-fetch-api-dan-ajax/solusi.ts
+// ============================================================
 
 // TODO 1:
 interface ProfilUser {

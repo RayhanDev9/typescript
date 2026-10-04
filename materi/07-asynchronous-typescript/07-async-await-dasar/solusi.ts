@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 07 · Asynchronous Modern: Async / Await Dasar (Solusi)
-// ============================================================================
+// ============================================================
+// 07 · Async / Await Dasar — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/07-async-await-dasar/solusi.ts
+// ============================================================
 
 interface AlbumMusik {
   userId: number;

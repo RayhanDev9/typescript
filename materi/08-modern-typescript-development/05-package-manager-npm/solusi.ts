@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 05 · Package Manager & NPM — Solusi
-// Jalankan: npx ts-node materi/08-modern-typescript-development/05-package-manager-npm/solusi.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/05-package-manager-npm/solusi.ts
+// ============================================================
 
 import { parseSemVer } from "./contoh";
 

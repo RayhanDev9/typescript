@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 03 · Type-Only Export & Import — Contoh
-// Jalankan: npx ts-node materi/08-modern-typescript-development/03-type-only-export-import/contoh.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/03-type-only-export-import/contoh.ts
+// ============================================================
 
 // 1. Mengimpor HANYA Tipe (import type)
 import type { StatusLogin } from "./modulPengguna";

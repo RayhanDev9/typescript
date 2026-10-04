@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 08 · Pure Functions & Side Effects — Solusi
-// Jalankan: npx ts-node materi/08-modern-typescript-development/08-pure-functions-side-effects/solusi.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/08-pure-functions-side-effects/solusi.ts
+// ============================================================
 
 // 1. Pure function untuk menambahkan tugas tanpa memutasi array asli
 export function tambahTugasPure(

@@ -1,7 +1,7 @@
-// ============================================================================
-// 08 · Modern TypeScript Development
-// 01 · Arsitektur Modern: Gambaran Besar (Solusi)
-// ============================================================================
+// ============================================================
+// 01 · Arsitektur Web Modern Overview — Solusi
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/01-arsitektur-modern-overview/solusi.ts
+// ============================================================
 
 // TODO 1:
 interface Produk {

@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 09 · Mengembalikan Nilai dari Fungsi Async (Contoh)
-// ============================================================================
+// ============================================================
+// 09 · Return Value dari Fungsi Async — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/09-returning-values-from-async/contoh.ts
+// ============================================================
 
 interface DataUser {
   id: number;

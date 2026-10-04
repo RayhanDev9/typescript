@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 01 · Pengenalan Asynchronous (Latihan)
-// ============================================================================
+// ============================================================
+// 01 · Pengenalan Asynchronous — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/01-pengenalan-asynchronous/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 11 · Promise Combinator (Solusi)
-// ============================================================================
+// ============================================================
+// 11 · Promise Combinators Lainnya — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/11-promise-combinators-lainnya/solusi.ts
+// ============================================================
 
 function serverJakarta(): Promise<string> {
   return new Promise((resolve) => setTimeout(() => resolve("Jakarta: 30°C"), 500));

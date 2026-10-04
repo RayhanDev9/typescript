@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 13 · Coding Challenge: GitHub Data Fetcher (Contoh Prototype)
-// ============================================================================
+// ============================================================
+// 13 · Challenge: Aplikasi Data Fetcher — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/13-challenge-aplikasi-data-fetcher/contoh.ts
+// ============================================================
 
 interface MiniProfil {
   login: string;

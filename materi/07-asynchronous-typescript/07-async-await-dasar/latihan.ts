@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 07 · Asynchronous Modern: Async / Await Dasar (Latihan)
-// ============================================================================
+// ============================================================
+// 07 · Async / Await Dasar — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/07-async-await-dasar/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

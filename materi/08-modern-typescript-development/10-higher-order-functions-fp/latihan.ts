@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 10 · Higher-Order Functions dalam FP — Latihan
-// Jalankan: npx ts-node materi/08-modern-typescript-development/10-higher-order-functions-fp/latihan.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/10-higher-order-functions-fp/latihan.ts
+// ============================================================
 
 /**
  * 🎯 TUGAS:

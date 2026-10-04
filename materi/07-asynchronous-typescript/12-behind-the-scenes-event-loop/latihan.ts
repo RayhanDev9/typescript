@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 12 · Di Balik Layar: Event Loop (Latihan)
-// ============================================================================
+// ============================================================
+// 12 · Di Balik Layar: Event Loop — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/12-behind-the-scenes-event-loop/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // 1. JANGAN JALANKAN KODE DULU!

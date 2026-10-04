@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 08 · Pure Functions & Side Effects — Contoh
-// Jalankan: npx ts-node materi/08-modern-typescript-development/08-pure-functions-side-effects/contoh.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/08-pure-functions-side-effects/contoh.ts
+// ============================================================
 
 export interface Barang {
   readonly id: string;

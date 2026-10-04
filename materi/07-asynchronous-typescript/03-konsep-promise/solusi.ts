@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 03 · Konsep Dasar Promise (Solusi)
-// ============================================================================
+// ============================================================
+// 03 · Konsep Dasar Promise — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/03-konsep-promise/solusi.ts
+// ============================================================
 
 // TODO 1:
 interface PesanCuaca {

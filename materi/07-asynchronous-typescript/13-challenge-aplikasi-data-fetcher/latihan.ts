@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 13 · Coding Challenge: GitHub Data Fetcher (Latihan)
-// ============================================================================
+// ============================================================
+// 13 · Challenge: Aplikasi Data Fetcher — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/13-challenge-aplikasi-data-fetcher/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini untuk membangun sistem pencari data GitHub!

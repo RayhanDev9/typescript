@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 09 · Immutability & Deep Updates — Latihan
-// Jalankan: npx ts-node materi/08-modern-typescript-development/09-immutability-dan-deep-updates/latihan.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/09-immutability-dan-deep-updates/latihan.ts
+// ============================================================
 
 export interface DetailDivisi {
   namaDivisi: string;

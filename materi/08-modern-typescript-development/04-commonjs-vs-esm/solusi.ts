@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 04 · CommonJS vs ES Modules — Solusi
-// Jalankan: npx ts-node materi/08-modern-typescript-development/04-commonjs-vs-esm/solusi.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/04-commonjs-vs-esm/solusi.ts
+// ============================================================
 
 import * as path from "path";
 

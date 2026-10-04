@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 02 · Callback & Callback Hell (Latihan)
-// ============================================================================
+// ============================================================
+// 02 · Callback & Callback Hell — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/02-callback-dan-callback-hell/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

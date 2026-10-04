@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 02 · ES Modules: Export & Import — Contoh
-// Jalankan: npx ts-node materi/08-modern-typescript-development/02-es-modules-export-import/contoh.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/02-es-modules-export-import/contoh.ts
+// ============================================================
 
 // 1. Mengimpor Default Export dan Named Export sekaligus
 import sambutMatematika, {

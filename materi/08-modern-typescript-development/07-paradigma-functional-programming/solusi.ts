@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 07 · Paradigma Functional Programming — Solusi
-// Jalankan: npx ts-node materi/08-modern-typescript-development/07-paradigma-functional-programming/solusi.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/07-paradigma-functional-programming/solusi.ts
+// ============================================================
 
 export interface Siswa {
   nama: string;

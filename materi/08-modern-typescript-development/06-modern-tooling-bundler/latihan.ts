@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 06 · Modern Tooling & Bundler — Latihan
-// Jalankan: npx ts-node materi/08-modern-typescript-development/06-modern-tooling-bundler/latihan.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/06-modern-tooling-bundler/latihan.ts
+// ============================================================
 
 import { type Modul, simulasiBundling } from "./contoh";
 

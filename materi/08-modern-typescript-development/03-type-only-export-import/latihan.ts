@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 03 · Type-Only Export & Import — Latihan
-// Jalankan: npx ts-node materi/08-modern-typescript-development/03-type-only-export-import/latihan.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/03-type-only-export-import/latihan.ts
+// ============================================================
 
 /**
  * 🎯 TUGAS:

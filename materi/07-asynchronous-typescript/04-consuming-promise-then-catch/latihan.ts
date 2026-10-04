@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 04 · Mengonsumsi Promise (Latihan)
-// ============================================================================
+// ============================================================
+// 04 · Mengonsumsi Promise (then, catch, finally) — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/04-consuming-promise-then-catch/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

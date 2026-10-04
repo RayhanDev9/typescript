@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 08 · Penanganan Error Async/Await: try ... catch (Latihan)
-// ============================================================================
+// ============================================================
+// 08 · Error Handling (try...catch) — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/08-error-handling-try-catch/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

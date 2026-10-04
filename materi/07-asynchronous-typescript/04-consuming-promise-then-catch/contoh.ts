@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 04 · Mengonsumsi Promise: .then(), .catch(), dan .finally() (Contoh)
-// ============================================================================
+// ============================================================
+// 04 · Mengonsumsi Promise (then, catch, finally) — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/04-consuming-promise-then-catch/contoh.ts
+// ============================================================
 
 // 1. Fungsi Penghasil Promise
 function verifikasiAkun(username: string): Promise<{ akunId: string; role: string }> {

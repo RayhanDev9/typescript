@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 12 · Di Balik Layar: Event Loop & Microtask Queue (Contoh)
-// ============================================================================
+// ============================================================
+// 12 · Di Balik Layar: Event Loop — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/12-behind-the-scenes-event-loop/contoh.ts
+// ============================================================
 
 console.log("=== 1. Menguji Prioritas Event Loop ===");
 

@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 01 · Pengenalan Asynchronous: Synchronous vs Asynchronous (Contoh)
-// ============================================================================
+// ============================================================
+// 01 · Pengenalan Asynchronous — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/01-pengenalan-asynchronous/contoh.ts
+// ============================================================
 
 // 1. Contoh Kode Synchronous (Berjalan Berurutan dari Atas ke Bawah)
 console.log("=== 1. Eksekusi Synchronous ===");

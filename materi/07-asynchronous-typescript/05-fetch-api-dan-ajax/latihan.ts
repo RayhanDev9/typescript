@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 05 · Fetch API & AJAX Modern (Latihan)
-// ============================================================================
+// ============================================================
+// 05 · Fetch API & AJAX Modern — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/05-fetch-api-dan-ajax/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

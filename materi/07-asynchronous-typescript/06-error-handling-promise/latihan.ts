@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 06 · Penanganan Error pada Promise & Fetch (Latihan)
-// ============================================================================
+// ============================================================
+// 06 · Penanganan Error Promise — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/06-error-handling-promise/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

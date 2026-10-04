@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 11 · Currying & Partial Application — Solusi
-// Jalankan: npx ts-node materi/08-modern-typescript-development/11-currying-dan-partial-application/solusi.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/11-currying-dan-partial-application/solusi.ts
+// ============================================================
 
 export const hitungPromoBelanja =
   (potonganKupon: number) =>

@@ -1,7 +1,7 @@
-// ============================================================================
-// 08 · Modern TypeScript Development
-// 01 · Arsitektur Modern: Gambaran Besar (Contoh)
-// ============================================================================
+// ============================================================
+// 01 · Arsitektur Web Modern Overview — Contoh
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/01-arsitektur-modern-overview/contoh.ts
+// ============================================================
 
 // 1. Pemisahan Tanggung Jawab (Separation of Concerns)
 // Bayangkan 3 bagian ini berada di file yang berbeda di masa depan:

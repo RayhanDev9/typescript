@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 12 · Function Composition & Piping — Solusi
-// Jalankan: npx ts-node materi/08-modern-typescript-development/12-function-composition-piping/solusi.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/12-function-composition-piping/solusi.ts
+// ============================================================
 
 // 1. Implementasi helper generic pipe3
 export function pipe3<A, B, C, D>(

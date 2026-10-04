@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 05 · Fetch API & AJAX Modern (Contoh)
-// ============================================================================
+// ============================================================
+// 05 · Fetch API & AJAX Modern — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/05-fetch-api-dan-ajax/contoh.ts
+// ============================================================
 
 // 1. Mendefinisikan Bentuk Data Respon API Menggunakan Interface
 interface PostinganBlog {

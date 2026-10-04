@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 10 · Menjalankan Promise Secara Paralel (Latihan)
-// ============================================================================
+// ============================================================
+// 10 · Menjalankan Promise Secara Paralel — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/10-running-promises-parallel/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

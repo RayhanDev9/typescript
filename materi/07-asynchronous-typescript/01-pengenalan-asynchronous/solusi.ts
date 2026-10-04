@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 01 · Pengenalan Asynchronous (Solusi)
-// ============================================================================
+// ============================================================
+// 01 · Pengenalan Asynchronous — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/01-pengenalan-asynchronous/solusi.ts
+// ============================================================
 
 // TODO 1:
 console.log("1. Mulai mengunduh file video...");

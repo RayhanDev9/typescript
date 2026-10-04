@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 09 · Mengembalikan Nilai dari Fungsi Async (Solusi)
-// ============================================================================
+// ============================================================
+// 09 · Return Value dari Fungsi Async — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/09-returning-values-from-async/solusi.ts
+// ============================================================
 
 // TODO 1:
 async function hitungHargaTotal(hargaBarang: number, jumlah: number): Promise<number> {

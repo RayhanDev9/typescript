@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 10 · Menjalankan Promise Secara Paralel (Solusi)
-// ============================================================================
+// ============================================================
+// 10 · Menjalankan Promise Secara Paralel — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/10-running-promises-parallel/solusi.ts
+// ============================================================
 
 function simulasikanCekStok(namaBarang: string): Promise<string> {
   return new Promise((resolve) => {

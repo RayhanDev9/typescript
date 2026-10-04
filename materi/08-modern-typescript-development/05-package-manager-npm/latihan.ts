@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 05 · Package Manager & NPM — Latihan
-// Jalankan: npx ts-node materi/08-modern-typescript-development/05-package-manager-npm/latihan.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/05-package-manager-npm/latihan.ts
+// ============================================================
 
 import { parseSemVer, type SemVer } from "./contoh";
 

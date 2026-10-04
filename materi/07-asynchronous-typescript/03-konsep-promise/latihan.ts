@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 03 · Konsep Dasar Promise (Latihan)
-// ============================================================================
+// ============================================================
+// 03 · Konsep Dasar Promise — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/03-konsep-promise/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

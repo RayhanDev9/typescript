@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 03 · Konsep Dasar Promise (Contoh)
-// ============================================================================
+// ============================================================
+// 03 · Konsep Dasar Promise — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/03-konsep-promise/contoh.ts
+// ============================================================
 
 // 1. Interface Tipe Data Masa Depan
 interface ProdukDigital {

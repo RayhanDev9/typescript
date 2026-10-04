@@ -1,7 +1,7 @@
-// ============================================================================
-// 13 · Challenge: Modern FP Data Pipeline — Contoh Demo
-// Jalankan: npx ts-node materi/08-modern-typescript-development/13-challenge-modern-fp-pipeline/contoh.ts
-// ============================================================================
+// ============================================================
+// 13 · Challenge: Modern FP Data Pipeline — Contoh
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/13-challenge-modern-fp-pipeline/contoh.ts
+// ============================================================
 
 import type { ItemPesanan, Pesanan, LaporanTransaksi } from "./tipePesanan";
 

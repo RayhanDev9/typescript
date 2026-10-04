@@ -1,7 +1,7 @@
-// ============================================================================
-// Modul Tipe Data: tipePesanan.ts
-// Modul type-only untuk tantangan akhir
-// ============================================================================
+// ============================================================
+// 13 · Challenge: Modern FP Data Pipeline — Tipe Data Pesanan
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/13-challenge-modern-fp-pipeline/tipePesanan.ts
+// ============================================================
 
 export interface ItemPesanan {
   readonly nama: string;

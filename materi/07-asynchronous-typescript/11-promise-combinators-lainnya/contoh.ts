@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 11 · Promise Combinator: allSettled, race, dan any (Contoh)
-// ============================================================================
+// ============================================================
+// 11 · Promise Combinators Lainnya — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/11-promise-combinators-lainnya/contoh.ts
+// ============================================================
 
 // 1. Contoh Promise.allSettled
 async function demoAllSettled(): Promise<void> {

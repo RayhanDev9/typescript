@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 04 · Mengonsumsi Promise (Solusi)
-// ============================================================================
+// ============================================================
+// 04 · Mengonsumsi Promise (then, catch, finally) — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/04-consuming-promise-then-catch/solusi.ts
+// ============================================================
 
 function hitungDiskon(totalBelanja: number): Promise<number> {
   return new Promise((resolve, reject) => {

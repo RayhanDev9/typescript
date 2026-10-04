@@ -1,7 +1,7 @@
-// ============================================================================
+// ============================================================
 // 04 · CommonJS vs ES Modules — Contoh
-// Jalankan: npx ts-node materi/08-modern-typescript-development/04-commonjs-vs-esm/contoh.ts
-// ============================================================================
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/04-commonjs-vs-esm/contoh.ts
+// ============================================================
 
 // 1. Mengimpor modul bawaan Node.js menggunakan sintaks ES Modules modern
 // (Berkat opsi `"esModuleInterop": true` di tsconfig.json)

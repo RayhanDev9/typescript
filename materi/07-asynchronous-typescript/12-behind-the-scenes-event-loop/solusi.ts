@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 12 · Di Balik Layar: Event Loop (Solusi)
-// ============================================================================
+// ============================================================
+// 12 · Di Balik Layar: Event Loop — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/12-behind-the-scenes-event-loop/solusi.ts
+// ============================================================
 
 // JAWABAN TEBAKAN URUTAN YANG BENAR:
 // 1 -> 6 -> 3 -> 5 -> 2 -> 4

@@ -1,7 +1,7 @@
-// ============================================================================
-// 08 · Modern TypeScript Development
-// 01 · Arsitektur Modern: Gambaran Besar (Latihan)
-// ============================================================================
+// ============================================================
+// 01 · Arsitektur Web Modern Overview — Latihan
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/01-arsitektur-modern-overview/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

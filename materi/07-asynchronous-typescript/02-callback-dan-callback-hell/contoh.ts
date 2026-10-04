@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 02 · Callback & Callback Hell (Contoh)
-// ============================================================================
+// ============================================================
+// 02 · Callback & Callback Hell — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/02-callback-dan-callback-hell/contoh.ts
+// ============================================================
 
 // 1. Tipe Callback Error-First di TypeScript
 type CallbackBank<T> = (error: Error | null, data?: T) => void;

@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 11 · Promise Combinator (Latihan)
-// ============================================================================
+// ============================================================
+// 11 · Promise Combinators Lainnya — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/11-promise-combinators-lainnya/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

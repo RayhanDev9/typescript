@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 07 · Asynchronous Modern: Async / Await Dasar (Contoh)
-// ============================================================================
+// ============================================================
+// 07 · Async / Await Dasar — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/07-async-await-dasar/contoh.ts
+// ============================================================
 
 interface Post {
   id: number;

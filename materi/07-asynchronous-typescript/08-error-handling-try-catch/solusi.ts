@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 08 · Penanganan Error Async/Await: try ... catch (Solusi)
-// ============================================================================
+// ============================================================
+// 08 · Error Handling (try...catch) — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/08-error-handling-try-catch/solusi.ts
+// ============================================================
 
 interface DataFoto {
   id: number;

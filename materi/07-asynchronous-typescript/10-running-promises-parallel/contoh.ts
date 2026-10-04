@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 10 · Menjalankan Promise Secara Paralel: Promise.all (Contoh)
-// ============================================================================
+// ============================================================
+// 10 · Menjalankan Promise Secara Paralel — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/10-running-promises-parallel/contoh.ts
+// ============================================================
 
 interface DataSederhana {
   id: number;

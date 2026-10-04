@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 08 · Penanganan Error Async/Await: try ... catch (Contoh)
-// ============================================================================
+// ============================================================
+// 08 · Error Handling (try...catch) — Contoh
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/08-error-handling-try-catch/contoh.ts
+// ============================================================
 
 interface DataPengguna {
   id: number;

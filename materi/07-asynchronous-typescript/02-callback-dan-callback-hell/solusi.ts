@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 02 · Callback & Callback Hell (Solusi)
-// ============================================================================
+// ============================================================
+// 02 · Callback & Callback Hell — Solusi
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/02-callback-dan-callback-hell/solusi.ts
+// ============================================================
 
 type CallbackSederhana<T> = (error: Error | null, hasil?: T) => void;
 

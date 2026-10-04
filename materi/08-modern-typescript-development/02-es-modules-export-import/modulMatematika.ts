@@ -1,7 +1,7 @@
-// ============================================================================
-// Modul Pembantu: modulMatematika.ts
-// Menunjukkan Named Export dan Default Export
-// ============================================================================
+// ============================================================
+// 02 · ES Modules: Export & Import — Modul Pembantu (Matematika)
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/02-es-modules-export-import/modulMatematika.ts
+// ============================================================
 
 // 1. Named Export
 export const NILAI_PI: number = 3.14159;

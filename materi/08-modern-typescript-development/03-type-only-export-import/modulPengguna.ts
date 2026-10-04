@@ -1,7 +1,7 @@
-// ============================================================================
-// Modul Pembantu: modulPengguna.ts
-// Menyediakan tipe data (Type / Interface) dan fungsi runtime
-// ============================================================================
+// ============================================================
+// 03 · Type-Only Export & Import — Modul Pembantu (Pengguna)
+// Jalankan: npm run materi -- materi/08-modern-typescript-development/03-type-only-export-import/modulPengguna.ts
+// ============================================================
 
 // 1. Tipe Data (Hanya ada di waktu kompilasi / Type-only)
 export interface Pengguna {

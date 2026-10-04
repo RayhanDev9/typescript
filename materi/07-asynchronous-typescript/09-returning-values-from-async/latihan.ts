@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Asynchronous TypeScript
-// 09 · Mengembalikan Nilai dari Fungsi Async (Latihan)
-// ============================================================================
+// ============================================================
+// 09 · Return Value dari Fungsi Async — Latihan
+// Jalankan: npm run materi -- materi/07-asynchronous-typescript/09-returning-values-from-async/latihan.ts
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.
