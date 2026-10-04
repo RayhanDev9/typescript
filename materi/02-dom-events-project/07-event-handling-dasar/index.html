@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>07 · Event Handling Dasar</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .btn-counter {
+      padding: 0.8rem 1.6rem;
+      font-size: 1.1rem;
+      background-color: #0284c7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn-counter:hover {
+      background-color: #0369a1;
+    }
+    .btn-danger {
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      background-color: #ef4444;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-left: 0.5rem;
+    }
+    .area-hover {
+      background-color: #020617;
+      padding: 2rem;
+      border-radius: 8px;
+      border: 2px dashed #475569;
+      text-align: center;
+      margin-top: 1rem;
+      cursor: crosshair;
+      transition: all 0.2s ease;
+    }
+    .area-hover.aktif {
+      background-color: #1e3a8a;
+      border-color: #60a5fa;
+      color: #93c5fd;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Menangani Event Interaksi Pengguna</h1>
+    <p>Cobalah mengklik tombol counter di bawah ini, atau arahkan kursor ke area kotak:</p>
+
+    <button id="btn-hitung" class="btn-counter">Klik Saya: 0 kali</button>
+    <button id="btn-lepas" class="btn-danger">🔒 Kunci Tombol (Lepas Event)</button>
+
+    <div id="area-hover" class="area-hover">
+      Arahkan Kursor Mouse ke Area Ini (Hover)
+    </div>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

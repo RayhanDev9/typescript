@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>03 · Memilih Banyak Elemen</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+    .badge-topik {
+      padding: 0.5rem 1rem;
+      background-color: #334155;
+      color: #f1f5f9;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .tombol-grup {
+      display: flex;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+    button.btn-aksi {
+      padding: 0.5rem 1rem;
+      background-color: #0369a1;
+      border: none;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+    button.btn-aksi:disabled {
+      background-color: #475569;
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+    ul.daftar-item {
+      padding-left: 1.25rem;
+      color: #94a3b8;
+    }
+    li {
+      margin-bottom: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="judul-topik">Koleksi Elemen di TypeScript</h1>
+    <p>Di bawah ini terdapat beberapa elemen dengan class yang sama:</p>
+
+    <h3>Daftar Topik Belajar:</h3>
+    <div class="badge-container">
+      <span class="badge-topik">TypeScript</span>
+      <span class="badge-topik">DOM Tree</span>
+      <span class="badge-topik">querySelector</span>
+      <span class="badge-topik">Event Listener</span>
+      <span class="badge-topik">CSS Styles</span>
+    </div>
+
+    <h3>Daftar Tombol Fitur:</h3>
+    <div class="tombol-grup">
+      <button class="btn-aksi" data-id="1">Simpan</button>
+      <button class="btn-aksi" data-id="2" disabled>Edit (Nonaktif)</button>
+      <button class="btn-aksi" data-id="3">Hapus</button>
+      <button class="btn-aksi" data-id="4">Ekspor</button>
+    </div>
+
+    <h3>Log Hasil Seleksi:</h3>
+    <ul id="log-list" class="daftar-item">
+      <li>Menunggu proses TypeScript...</li>
+    </ul>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

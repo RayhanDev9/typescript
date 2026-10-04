@@ -9,7 +9,8 @@
     "materi": "tsx watch",
     "jalankan": "tsx",
     "build": "tsc",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "dom": "vite materi/02-dom-events-project --open"
   },
   "keywords": [
     "typescript",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@types/node": "^22.13.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "vite": "^8.3.2"
   }
 }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>09 · Form Handling & Input Pengguna</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-weight: 500;
+      color: #94a3b8;
+    }
+    input[type="text"], input[type="number"], select {
+      width: 100%;
+      padding: 0.6rem;
+      border-radius: 6px;
+      background-color: #0f172a;
+      color: white;
+      border: 1px solid #475569;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    button[type="submit"] {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      border: none;
+      background-color: #0284c7;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    button[type="submit"]:hover {
+      background-color: #0369a1;
+    }
+    .live-feedback {
+      font-size: 0.85rem;
+      color: #38bdf8;
+      margin-top: 0.25rem;
+    }
+    #box-hasil {
+      background-color: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      border: 1px solid #38bdf8;
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Formulir Data Pengguna</h1>
+
+    <form id="form-daftar">
+      <div class="form-group">
+        <label for="input-nama">Nama Lengkap:</label>
+        <input type="text" id="input-nama" placeholder="Ketik nama Anda...">
+        <div id="live-nama" class="live-feedback">Ketik sesuatu...</div>
+      </div>
+
+      <div class="form-group">
+        <label for="input-usia">Usia (Tahun):</label>
+        <input type="number" id="input-usia" placeholder="Misal: 20">
+      </div>
+
+      <div class="form-group">
+        <label for="select-paket">Pilihan Paket:</label>
+        <select id="select-paket">
+          <option value="basic">Paket Pemula (Gratis)</option>
+          <option value="pro">Paket Profesional (Rp 99.000)</option>
+          <option value="vip">Paket VIP Mentorship (Rp 299.000)</option>
+        </select>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="check-syarat">
+        <label for="check-syarat">Saya menyetujui aturan dan kebijakan layanan</label>
+      </div>
+
+      <button type="submit" id="btn-submit">Daftarkan Sekarang 🚀</button>
+    </form>
+
+    <div id="box-hasil">
+      Status pendaftaran akan muncul di sini...
+    </div>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01 · Apa itu DOM & Pohon DOM</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background-color: #0284c7;
+      color: #fff;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+    pre {
+      background-color: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      color: #a5f3fc;
+      overflow-x: auto;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Eksplorasi DOM</span>
+    <h1 id="judul-halaman">Pohon DOM di Memori Browser</h1>
+    <p id="deskripsi">
+      Halaman ini adalah representasi pohon DOM. Buka <strong>Console Pengembang Browser (F12)</strong>
+      untuk melihat bagaimana TypeScript membaca simpul-simpul dokumen ini!
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Informasi Dokumen Saat Ini</h2>
+    <pre id="output-info">Menunggu pembacaan dari TypeScript...</pre>
+  </div>
+
+  <!-- Catatan: Di browser modern, file .ts dikompilasi menjadi .js saat dijalankan,
+       atau dapat langsung dijalankan menggunakan bundler seperti Vite -->
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

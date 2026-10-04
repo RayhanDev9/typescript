@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12 · Event Bubbling & Delegation</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+
+    /* Kotak Bertingkat untuk Demonstrasi Bubbling */
+    .kotak-luar {
+      background-color: #0f172a;
+      border: 2px solid #ef4444;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+    .kotak-dalam {
+      background-color: #1e293b;
+      border: 2px solid #f59e0b;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-top: 0.5rem;
+    }
+    .btn-target {
+      background-color: #10b981;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+
+    /* Tabel / List untuk Event Delegation */
+    .daftar-delegasi {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .item-delegasi {
+      background-color: #0f172a;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #334155;
+    }
+    .btn-aksi-item {
+      background-color: #0284c7;
+      color: white;
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .btn-tambah-dinamis {
+      background-color: #6366f1;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>1. Demonstrasi Event Bubbling</h1>
+    <p>Klik tombol hijau dan lihat log urutan event yang merambat ke kotak luar:</p>
+
+    <div id="kotak-luar" class="kotak-luar">
+      <strong>Kotak Luar (Merah)</strong>
+      <div id="kotak-dalam" class="kotak-dalam">
+        <strong>Kotak Dalam (Kuning)</strong>
+        <br>
+        <button id="btn-klik-target" class="btn-target">Klik Tombol Target (Hijau)</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h1>2. Pola Event Delegation</h1>
+    <p>Satu event listener menangani semua tombol item, termasuk item baru yang ditambahkan!</p>
+
+    <ul id="kontainer-delegasi" class="daftar-delegasi">
+      <li class="item-delegasi" data-id="1">
+        <span>Item Kursus #1</span>
+        <button class="btn-aksi-item" data-aksi="beli">Beli Kursus</button>
+      </li>
+      <li class="item-delegasi" data-id="2">
+        <span>Item Kursus #2</span>
+        <button class="btn-aksi-item" data-aksi="beli">Beli Kursus</button>
+      </li>
+    </ul>
+
+    <button id="btn-tambah-item" class="btn-tambah-dinamis">+ Tambah Item Kursus Baru</button>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

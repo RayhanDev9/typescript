@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11 · Membuat, Menambah & Menghapus Elemen</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .input-box {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    input {
+      flex: 1;
+      padding: 0.6rem;
+      border-radius: 6px;
+      background-color: #0f172a;
+      color: white;
+      border: 1px solid #475569;
+    }
+    button {
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: opacity 0.2s;
+    }
+    .btn-tambah {
+      background-color: #0284c7;
+      color: white;
+    }
+    .btn-prepend {
+      background-color: #059669;
+      color: white;
+    }
+    .btn-clear {
+      background-color: #ef4444;
+      color: white;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    ul.tugas-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li.tugas-item {
+      background-color: #020617;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #334155;
+      animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .btn-del {
+      background-color: #991b1b;
+      color: white;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Aplikasi Todo Dinamis</h1>
+    <p>Buat dan hapus elemen HTML secara dinamis dari TypeScript:</p>
+
+    <div class="input-box">
+      <input type="text" id="input-tugas" placeholder="Tuliskan nama tugas baru...">
+      <button id="btn-tambah-bawah" class="btn-tambah">+ Akhir</button>
+      <button id="btn-tambah-atas" class="btn-prepend">+ Awal</button>
+    </div>
+
+    <ul id="daftar-tugas" class="tugas-list">
+      <li class="tugas-item">
+        <span>Tugas Contoh Bawaan</span>
+        <button class="btn-del">Hapus</button>
+      </li>
+    </ul>
+
+    <button id="btn-kosongkan" class="btn-clear">🗑️ Hapus Semua Tugas</button>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

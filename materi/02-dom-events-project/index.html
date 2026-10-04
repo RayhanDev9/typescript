@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Pembelajaran DOM & Events · TypeScript</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #151d30;
+      --card-hover: #1e2942;
+      --border: #23314e;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-badge: #0284c7;
+      --tag-bg: #1e293b;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2.5rem 1.5rem;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      background-color: var(--accent-badge);
+      color: #fff;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 0.5rem 0;
+      color: var(--accent);
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin: 0;
+    }
+    h2.section-title {
+      font-size: 1.3rem;
+      margin: 2rem 0 1rem 0;
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .card-link {
+      display: block;
+      text-decoration: none;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      transition: all 0.2s ease;
+      color: var(--text);
+    }
+    .card-link:hover {
+      background-color: var(--card-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+    .card-number {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 0.35rem 0 0.5rem 0;
+    }
+    .card-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">TypeScript DOM & Events</span>
+      <h1>Portal Eksplorasi DOM Interaktif</h1>
+      <p class="subtitle">
+        Pilih salah satu materi di bawah ini untuk menguji dan melihat manipulasi DOM langsung di browser Anda.
+      </p>
+    </header>
+
+    <h2 class="section-title">📘 Bagian 1: Fondasi DOM & Seleksi Elemen</h2>
+    <div class="grid">
+      <a class="card-link" href="./01-apa-itu-dom/index.html">
+        <div class="card-number">Materi 01</div>
+        <div class="card-title">Apa itu DOM & Pohon DOM</div>
+        <p class="card-desc">Objek document, Node vs Element, struktur hirarki pohon di browser.</p>
+      </a>
+      <a class="card-link" href="./02-memilih-elemen-tunggal/index.html">
+        <div class="card-number">Materi 02</div>
+        <div class="card-title">Memilih Elemen Tunggal</div>
+        <p class="card-desc">querySelector&lt;T&gt;, getElementById, penanganan null & non-null (!).</p>
+      </a>
+      <a class="card-link" href="./03-memilih-banyak-elemen/index.html">
+        <div class="card-number">Materi 03</div>
+        <div class="card-title">Memilih Banyak Elemen</div>
+        <p class="card-desc">querySelectorAll&lt;T&gt;, NodeList, iterasi forEach, konversi Array.from.</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">🎨 Bagian 2: Manipulasi Konten, Atribut & Style</h2>
+    <div class="grid">
+      <a class="card-link" href="./04-membaca-mengubah-konten/index.html">
+        <div class="card-number">Materi 04</div>
+        <div class="card-title">Membaca & Mengubah Konten</div>
+        <p class="card-desc">textContent vs innerText vs innerHTML, keamanan celah XSS.</p>
+      </a>
+      <a class="card-link" href="./05-manipulasi-atribut-dataset/index.html">
+        <div class="card-number">Materi 05</div>
+        <div class="card-title">Manipulasi Atribut & Dataset</div>
+        <p class="card-desc">Atribut standar (src, disabled) & HTML5 custom data attributes (data-*).</p>
+      </a>
+      <a class="card-link" href="./06-manipulasi-style-dan-class/index.html">
+        <div class="card-number">Materi 06</div>
+        <div class="card-title">Manipulasi Style & Class</div>
+        <p class="card-desc">Inline style .style vs manajemen classList (add, remove, toggle, contains).</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">⚡ Bagian 3: Event Handling & Form Input</h2>
+    <div class="grid">
+      <a class="card-link" href="./07-event-handling-dasar/index.html">
+        <div class="card-number">Materi 07</div>
+        <div class="card-title">Event Handling Dasar</div>
+        <p class="card-desc">addEventListener, removeEventListener, tipe interaksi MouseEvent.</p>
+      </a>
+      <a class="card-link" href="./08-event-object-keyboard/index.html">
+        <div class="card-number">Materi 08</div>
+        <div class="card-title">Event Object & Keyboard</div>
+        <p class="card-desc">e.target, e.preventDefault(), KeyboardEvent, mendeteksi tombol Escape.</p>
+      </a>
+      <a class="card-link" href="./09-form-dan-input/index.html">
+        <div class="card-number">Materi 09</div>
+        <div class="card-title">Form Handling & Input</div>
+        <p class="card-desc">Konversi string .value ke number, checkbox .checked, submit form.</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">🚀 Bagian 4: Arsitektur DOM Tingkat Lanjut</h2>
+    <div class="grid">
+      <a class="card-link" href="./10-navigasi-dom-traversing/index.html">
+        <div class="card-number">Materi 10</div>
+        <div class="card-title">Navigasi Pohon DOM</div>
+        <p class="card-desc">.parentElement, .closest(), .children, .nextElementSibling.</p>
+      </a>
+      <a class="card-link" href="./11-membuat-menghapus-elemen/index.html">
+        <div class="card-number">Materi 11</div>
+        <div class="card-title">Membuat & Menghapus Elemen</div>
+        <p class="card-desc">document.createElement, .append(), .prepend(), .remove().</p>
+      </a>
+      <a class="card-link" href="./12-event-bubbling-delegation/index.html">
+        <div class="card-number">Materi 12</div>
+        <div class="card-title">Event Bubbling & Delegation</div>
+        <p class="card-desc">Fase capturing & bubbling, stopPropagation, teknik Event Delegation.</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">🎮 Bagian 5: Proyek Capstone Interaktif</h2>
+    <div class="grid">
+      <a class="card-link" href="./13-proyek-guess-my-number/final/index.html">
+        <div class="card-number">Proyek 13</div>
+        <div class="card-title">Guess My Number! 🎲</div>
+        <p class="card-desc">Game tebak angka rahasia 1-20, kalkulasi skor & highscore.</p>
+      </a>
+      <a class="card-link" href="./14-proyek-modal-window/final/index.html">
+        <div class="card-number">Proyek 14</div>
+        <div class="card-title">Modal Window Popup 🪟</div>
+        <p class="card-desc">Jendela popup interaktif, penutup modal via backdrop & tombol Escape.</p>
+      </a>
+      <a class="card-link" href="./15-proyek-pig-game/final/index.html">
+        <div class="card-number">Proyek 15</div>
+        <div class="card-title">Pig Game 2 Pemain 🐷</div>
+        <p class="card-desc">Game lempar dadu 2 player, roll dice, hold score, & penentuan pemenang.</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

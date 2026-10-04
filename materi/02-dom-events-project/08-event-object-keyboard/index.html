@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>08 · Event Object & Keyboard Events</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .tampilan-key {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #38bdf8;
+      background-color: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      margin: 1rem 0;
+      border: 1px solid #0284c7;
+    }
+    .info-tabel {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .info-tabel td {
+      padding: 0.5rem;
+      border-bottom: 1px solid #334155;
+    }
+    .info-tabel td:first-child {
+      color: #94a3b8;
+      width: 40%;
+    }
+    .modal-box {
+      background-color: #0369a1;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      border: 1px solid #38bdf8;
+    }
+    .tersembunyi {
+      display: none;
+    }
+    a.link-test {
+      color: #38bdf8;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Deteksi Tombol Keyboard</h1>
+    <p>Tekan tombol apapun pada keyboard fisik Anda untuk mendeteksinya:</p>
+
+    <div id="display-key" class="tampilan-key">Tekan Keyboard...</div>
+
+    <table class="info-tabel">
+      <tr>
+        <td>event.key:</td>
+        <td id="info-key">-</td>
+      </tr>
+      <tr>
+        <td>event.code:</td>
+        <td id="info-code">-</td>
+      </tr>
+      <tr>
+        <td>Shift Aktif?</td>
+        <td id="info-shift">false</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Uji Coba Modal & preventDefault</h2>
+    <a href="https://typescriptlang.org" id="link-batal" class="link-test">
+      Tautan TypeScript Resmi (preventDefault diaktifkan)
+    </a>
+
+    <div id="mini-popup" class="modal-box">
+      <strong>🔔 Kotak Popup Terbuka!</strong>
+      <p>Tekan tombol <code>Escape</code> pada keyboard Anda untuk menutup kotak ini!</p>
+    </div>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

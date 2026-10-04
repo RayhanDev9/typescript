@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>05 · Manipulasi Atribut & Dataset</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .btn-item {
+      padding: 0.6rem 1.2rem;
+      margin-right: 0.5rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #0284c7;
+      color: white;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .btn-item:hover {
+      background-color: #0369a1;
+    }
+    #kotak-detail {
+      background-color: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      border: 1px solid #334155;
+      color: #7dd3fc;
+    }
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      border-radius: 6px;
+      background-color: #0f172a;
+      color: white;
+      border: 1px solid #475569;
+      box-sizing: border-box;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Manipulasi Atribut & Dataset</h1>
+    <p>Klik tombol produk untuk melihat data kustom HTML5 yang tersimpan pada atribut <code>data-*</code>:</p>
+
+    <div>
+      <button class="btn-item" data-id="p-01" data-nama-barang="Laptop Gaming Pro" data-harga="15000000">
+        Pilih Laptop
+      </button>
+      <button class="btn-item" data-id="p-02" data-nama-barang="Monitor 4K 144Hz" data-harga="4200000">
+        Pilih Monitor
+      </button>
+      <button class="btn-item" data-id="p-03" data-nama-barang="Headset Nirkabel" data-harga="850000">
+        Pilih Headset
+      </button>
+    </div>
+
+    <div id="kotak-detail">
+      Belum ada produk yang dipilih...
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Kontrol Formulir (Atribut Standar)</h2>
+    <label for="input-voucher">Kode Voucher:</label>
+    <input type="text" id="input-voucher" placeholder="Masukkan kode kupon..." disabled>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

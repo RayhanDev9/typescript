@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02 · Memilih Elemen Tunggal</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .keterangan {
+      color: #94a3b8;
+    }
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      border-radius: 8px;
+      border: 1px solid #475569;
+      background-color: #0f172a;
+      color: white;
+      box-sizing: border-box;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      border: none;
+      background-color: #0284c7;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #0369a1;
+    }
+    .kotak-hasil {
+      background-color: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px dashed #38bdf8;
+      color: #a5f3fc;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="judul-utama">Seleksi Elemen Tunggal</h1>
+    <p class="keterangan">Mempelajari querySelector dan getElementById dengan aman di TypeScript.</p>
+
+    <label for="input-nama">Masukkan Nama Anda:</label>
+    <input type="text" id="input-nama" class="input-nama" placeholder="Tuliskan nama Anda di sini..." value="Budi Santoso">
+
+    <button type="button" id="btn-sapa">Sapa Pengguna 👋</button>
+
+    <div class="kotak-hasil">
+      Hasil seleksi akan muncul di sini...
+    </div>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

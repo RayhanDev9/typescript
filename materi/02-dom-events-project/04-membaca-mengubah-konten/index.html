@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>04 · Membaca & Mengubah Konten</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .tersembunyi {
+      display: none;
+    }
+    .box-perbandingan {
+      background-color: #020617;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      font-family: monospace;
+    }
+    .item-produk {
+      background-color: #334155;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 0.5rem;
+      border-left: 4px solid #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="judul-halaman">Perbandingan Konten Elemen</h1>
+    
+    <p id="paragraf-sampel">
+      Halo teman-teman! <span class="tersembunyi">(Teks ini tersembunyi via CSS display:none)</span> Mari belajar TypeScript.
+    </p>
+
+    <div class="box-perbandingan">
+      <div id="out-textcontent">textContent: ...</div>
+      <div id="out-innertext">innerText: ...</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Daftar Produk Dinamis (innerHTML)</h2>
+    <div id="kontainer-produk">
+      <p>Belum ada produk yang dimuat...</p>
+    </div>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>

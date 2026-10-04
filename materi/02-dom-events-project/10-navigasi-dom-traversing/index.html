@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 · Navigasi Pohon DOM (Traversing)</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+    .kartu-tugas {
+      background-color: #0f172a;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+      border: 1px solid #475569;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s;
+    }
+    .kartu-tugas.sorot {
+      border-color: #f59e0b;
+      background-color: #1c1917;
+    }
+    button.btn-aksi {
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      margin-left: 0.25rem;
+    }
+    .btn-sorot {
+      background-color: #0284c7;
+      color: white;
+    }
+    .btn-hapus {
+      background-color: #ef4444;
+      color: white;
+    }
+    ol.daftar-langkah li {
+      padding: 0.4rem;
+      border-bottom: 1px solid #334155;
+    }
+    li.fokus {
+      color: #38bdf8;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Navigasi DOM (closest & parentElement)</h1>
+    <p>Klik tombol aksi untuk menavigasi elemen induk dari tombol yang diklik:</p>
+
+    <div id="kontainer-tugas">
+      <div class="kartu-tugas" data-id="1">
+        <span>Tugas 1: Pahami DOM Tree</span>
+        <div>
+          <button class="btn-aksi btn-sorot">Sorot Induk</button>
+          <button class="btn-aksi btn-hapus">Hapus</button>
+        </div>
+      </div>
+
+      <div class="kartu-tugas" data-id="2">
+        <span>Tugas 2: Kuasai querySelector</span>
+        <div>
+          <button class="btn-aksi btn-sorot">Sorot Induk</button>
+          <button class="btn-aksi btn-hapus">Hapus</button>
+        </div>
+      </div>
+
+      <div class="kartu-tugas" data-id="3">
+        <span>Tugas 3: Latihan Event Handler</span>
+        <div>
+          <button class="btn-aksi btn-sorot">Sorot Induk</button>
+          <button class="btn-aksi btn-hapus">Hapus</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Navigasi Sibling & Children</h2>
+    <ol id="daftar-langkah" class="daftar-langkah">
+      <li>Langkah A: Persiapan Lingkungan TypeScript</li>
+      <li class="fokus">Langkah B: Pemilihan Elemen (Fokus Sekarang)</li>
+      <li>Langkah C: Interaksi & Event Handler</li>
+      <li>Langkah D: Proyek Game Interaktif</li>
+    </ol>
+  </div>
+
+  <script type="module" src="./contoh.ts"></script>
+</body>
+</html>
