@@ -4,7 +4,7 @@ Repositori ini adalah kurikulum lengkap pembelajaran **TypeScript dari dasar** y
 
 ---
 
-## 📚 Struktur 8 Modul Pembelajaran
+## 📚 Struktur 10 Modul Pembelajaran
 
 ```text
 ├── materi/
@@ -15,7 +15,9 @@ Repositori ini adalah kurikulum lengkap pembelajaran **TypeScript dari dasar** y
 │   ├── 05-closer-look-functions/           # 11 Pelajaran + 1 Challenge Aplikasi Polling
 │   ├── 06-oop-typescript/                  # 14 Pelajaran + 1 Proyek Sistem Bank (Bankist)
 │   ├── 07-asynchronous-typescript/         # 12 Pelajaran + 1 Challenge Data Fetcher API
-│   └── 08-modern-typescript-development/   # 12 Pelajaran + 1 Capstone FP Data Pipeline
+│   ├── 08-modern-typescript-development/   # 12 Pelajaran + 1 Capstone FP Data Pipeline
+│   ├── 09-generics/                         # 12 Pelajaran + 1 Challenge Generic Repository & Cache
+│   └── 10-validation/                      # 12 Pelajaran + 1 Challenge API & Form Validator Engine
 ├── src/
 │   └── index.ts                            # Playground bebas
 ├── package.json
@@ -70,18 +72,28 @@ Arsitektur modular, ekosistem tooling, dan paradigma fungsional modern:
 - `Arsitektur Web Modern Overview`, `ES Modules (Export & Import)`, `Type-Only Export & Import`, `CommonJS vs ES Modules`, `Package Manager & NPM (SemVer, DevDependencies)`, `Modern Tooling & Bundler (Vite, esbuild, Minification, Source Maps)`, `Paradigma Functional Programming (FP)`, `Pure Functions & Side Effects`, `Immutability & Deep Updates`, `Higher-Order Functions (HOF)`, `Currying & Partial Application`, `Function Composition & Piping`.
 - **🏆 13. Capstone Challenge**: E-Commerce Transaction & Data Processing Pipeline.
 
+### 9️⃣ [Modul 9: Generics in TypeScript](./materi/09-generics/README.md)
+Fleksibilitas komponen dan keamanan tipe data dinamis:
+- `Apa itu Generic & Mengapa Butuh`, `Generic Functions & Type Argument Inference`, `Generic Interfaces & Type Aliases`, `Generic Classes & Collection Data Structures`, `Generic Constraints (extends)`, `Operator keyof & Lookup Types`, `Default Generic Types`, `Utility Types: Transformasi (Partial, Required, Readonly)`, `Utility Types: Seleksi (Pick, Omit)`, `Utility Types: Ekstraksi (Record, Exclude, Extract, NonNullable)`, `Pengenalan Dasar Conditional Types (T extends U ? X : Y)`, `Pengenalan Dasar Mapped Types ([K in keyof T])`.
+- **🏆 13. Capstone Challenge**: Sistem Generic Repository & In-Memory Cache Store.
+
+### 🔟 [Modul 10: Validation & Type Narrowing](./materi/10-validation/README.md)
+Jembatan keamanan runtime data liar eksternal ke compile-time type safety:
+- `Mengapa Butuh Validasi Runtime`, `Type Narrowing Dasar (typeof & Truthiness)`, `Narrowing dengan Operator in`, `Discriminated Unions (Tagged Unions)`, `Exhaustive Checking dengan Tipe never`, `Custom Type Guards (is Type Predicates)`, `Assertion Functions (asserts condition)`, `Pengenalan Schema Validation dengan Zod`, `Zod Type Inference (z.infer<typeof Schema>)`, `Validasi Form & Aturan Ketat (min, max, email, regex, custom errors)`, `Validasi Struktur Bersarang (Nested Objects & Arrays)`, `Transformasi & Sanitasi Data Zod (trim, toLowerCase, default, transform)`.
+- **🏆 13. Capstone Challenge**: Checkout & API Request Validation Engine.
+
 ---
 
 ## 🚀 Cara Menjalankan Materi
 
-### 1. Menjalankan File Materi Node.js (Modul 1, 3, 4, 5, 6, 7, 8)
+### 1. Menjalankan File Materi Node.js (Modul 1, 3, 4, 5, 6, 7, 8, 9, 10)
 ```bash
 # Mode Watch (Otomatis reload setiap Ctrl + S):
-npm run materi -- materi/04-data-structures-operators-strings/01-destructuring-array/contoh.ts
+npm run materi -- materi/09-generics/01-apa-itu-generic/contoh.ts
 
 # Jalankan sekali:
-npm run jalankan -- materi/07-asynchronous-typescript/13-challenge-aplikasi-data-fetcher/solusi.ts
-npm run jalankan -- materi/08-modern-typescript-development/13-challenge-modern-fp-pipeline/solusi.ts
+npm run jalankan -- materi/09-generics/13-challenge-generic-repository/solusi.ts
+npm run jalankan -- materi/10-validation/13-challenge-api-form-validator/solusi.ts
 
 # Verifikasi tidak ada error tipe di seluruh materi:
 npm run typecheck
