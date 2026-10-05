@@ -9,6 +9,10 @@
 //         - Menerima 3 parameter nilai: `skor1`, `skor2`, `skor3` (semuanya number)
 //         - Mengembalikan nilai rata-rata (skor1 + skor2 + skor3) / 3
 
+const hitungRataRata = (skor1: number, skor2: number, skor3: number): number =>
+  (skor1 + skor2 + skor3) / 3;
+
+console.info(hitungRataRata(12, 34, 55));
 
 // TODO 2: Buat fungsi `cekPemenang`:
 //         - Menerima rata-rata skor Tim Elang (`avgElang`: number) dan Tim Harimau (`avgHarimau`: number)
@@ -17,6 +21,20 @@
 //           - Jika avgHarimau >= 2 * avgElang → return "Tim Harimau Menang ([avgHarimau] vs [avgElang]) 🏆"
 //           - Jika tidak ada yang mencapai 2x lipat → return "Tidak ada tim yang memenuhi syarat menang!"
 
+const avgTim = (avg: number): number => avg;
+
+const cekPemenang = (): string => {
+  const avgElang = avgTim(4);
+  const avgHarimau = avgTim(10);
+
+  return avgElang >= 2 * avgHarimau
+    ? "Tim elang menang"
+    : avgHarimau >= 2 * avgElang
+      ? "Tim harimau menang"
+      : "Tidak ada tim yang menang";
+};
+
+console.info(cekPemenang());
 
 // TODO 3: Buat fungsi utama `jalankanKompetisi`:
 //         - Menerima skor 3 pertandingan untuk kedua tim.

@@ -13,7 +13,6 @@ function buatJus(apel: number, jeruk: number): string {
 }
 
 console.log(buatJus(2, 3));
-
 // --- 2. Contoh Dunia Nyata: Sistem Pembayaran Toko ---
 
 // Fungsi Helper 1: Format angka ke mata uang Rupiah
