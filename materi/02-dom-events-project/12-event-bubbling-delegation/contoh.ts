@@ -1,7 +1,7 @@
-// ============================================================================
-// 12 · Event Bubbling, Capturing & Event Delegation
-// CONTOH: Perambatan Event & Pola Event Delegation yang Efisien
-// ============================================================================
+// ============================================================
+// 12 · Event Bubbling & Delegation — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/12-event-bubbling-delegation/index.html di browser)
+// ============================================================
 
 // 1. Memeriksa Urutan Event Bubbling
 const kotakLuar = document.querySelector<HTMLDivElement>("#kotak-luar")!;

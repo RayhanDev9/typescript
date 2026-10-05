@@ -1,7 +1,7 @@
-// ============================================================================
-// 02 · Memilih Elemen Tunggal (Selecting Single Element)
-// SOLUSI: Menangkap Elemen & Mengakses Properti dengan Aman
-// ============================================================================
+// ============================================================
+// 02 · Memilih Elemen Tunggal — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/02-memilih-elemen-tunggal/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen paragraf dengan class '.keterangan' menggunakan document.querySelector.

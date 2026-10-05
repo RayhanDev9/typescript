@@ -1,7 +1,7 @@
-// ============================================================================
-// 05 · Manipulasi Atribut & Dataset HTML
-// LATIHAN: Mengelola Data Atribut & Menghitung Diskon
-// ============================================================================
+// ============================================================
+// 05 · Manipulasi Atribut & Dataset — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/05-manipulasi-atribut-dataset/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

@@ -1,7 +1,7 @@
-// ============================================================================
-// 10 · Navigasi Pohon DOM (DOM Traversing)
-// SOLUSI: Navigasi Parent, Children, dan Sibling
-// ============================================================================
+// ============================================================
+// 10 · Navigasi Pohon DOM — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/10-navigasi-dom-traversing/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen '#daftar-langkah' dan anak pertamanya

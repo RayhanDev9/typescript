@@ -1,7 +1,7 @@
-// ============================================================================
-// 01 · Apa itu DOM & Pohon DOM (DOM Tree)
-// LATIHAN: Mengakses Dokumen & Menampilkan Info Sederhana
-// ============================================================================
+// ============================================================
+// 01 · Apa itu DOM & Pohon DOM — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/01-apa-itu-dom/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini dengan tepat.

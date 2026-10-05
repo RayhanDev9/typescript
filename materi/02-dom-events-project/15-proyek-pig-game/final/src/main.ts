@@ -1,5 +1,6 @@
 // ============================================================
-// PROYEK 3: PIG GAME (GAME DADU 2 PEMAIN) — FINAL (SOLUSI LENGKAP)
+// 15 · Proyek 3: Pig Game — Final
+// Jalankan: npm run dom (buka materi/02-dom-events-project/15-proyek-pig-game/final/index.html di browser)
 // ============================================================
 
 // --- 1. Definisi Tipe dan State Permainan ---

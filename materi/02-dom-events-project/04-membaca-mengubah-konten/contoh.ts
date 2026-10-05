@@ -1,7 +1,7 @@
-// ============================================================================
-// 04 · Membaca & Mengubah Konten Teks serta HTML
-// CONTOH: Perbedaan textContent, innerText, dan innerHTML
-// ============================================================================
+// ============================================================
+// 04 · Membaca & Mengubah Konten — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/04-membaca-mengubah-konten/index.html di browser)
+// ============================================================
 
 // 1. Membandingkan textContent vs innerText
 const paragraf = document.querySelector<HTMLParagraphElement>("#paragraf-sampel")!;

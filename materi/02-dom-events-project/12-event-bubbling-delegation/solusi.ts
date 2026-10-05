@@ -1,7 +1,7 @@
-// ============================================================================
-// 12 · Event Bubbling, Capturing & Event Delegation
-// SOLUSI: Menghentikan Propagasi & Event Delegation untuk Hapus Item
-// ============================================================================
+// ============================================================
+// 12 · Event Bubbling & Delegation — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/12-event-bubbling-delegation/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Menghentikan propagasi event bubbling

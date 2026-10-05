@@ -1,7 +1,7 @@
-// ============================================================================
-// 10 · Navigasi Pohon DOM (DOM Traversing)
-// LATIHAN: Navigasi Parent, Children, dan Sibling
-// ============================================================================
+// ============================================================
+// 10 · Navigasi Pohon DOM — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/10-navigasi-dom-traversing/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Menangani Event Pengguna (Event Handling Dasar)
-// LATIHAN: Menghitung Klik & Merespons Dobel Klik
-// ============================================================================
+// ============================================================
+// 07 · Event Handling Dasar — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/07-event-handling-dasar/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

@@ -1,5 +1,6 @@
 // ============================================================
-// PROYEK 2: MODAL WINDOW — FINAL (SOLUSI LENGKAP)
+// 14 · Proyek 2: Modal Window — Final
+// Jalankan: npm run dom (buka materi/02-dom-events-project/14-proyek-modal-window/final/index.html di browser)
 // ============================================================
 
 // --- 1. Pilih Elemen DOM ---

@@ -1,7 +1,7 @@
-// ============================================================================
-// 02 · Memilih Elemen Tunggal (Selecting Single Element)
-// LATIHAN: Menangkap Elemen & Mengakses Properti dengan Aman
-// ============================================================================
+// ============================================================
+// 02 · Memilih Elemen Tunggal — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/02-memilih-elemen-tunggal/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini. Pastikan tidak ada pesan error merah dari TypeScript!

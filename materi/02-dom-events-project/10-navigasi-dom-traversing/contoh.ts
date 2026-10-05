@@ -1,7 +1,7 @@
-// ============================================================================
-// 10 · Navigasi Pohon DOM (DOM Traversing)
-// CONTOH: closest, parentElement, children, dan nextElementSibling
-// ============================================================================
+// ============================================================
+// 10 · Navigasi Pohon DOM — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/10-navigasi-dom-traversing/index.html di browser)
+// ============================================================
 
 // 1. Navigasi ke Atas dengan .closest()
 // Mengambil semua tombol sorot

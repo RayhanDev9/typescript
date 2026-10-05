@@ -1,7 +1,7 @@
-// ============================================================================
-// 01 · Apa itu DOM & Pohon DOM (DOM Tree)
-// CONTOH: Mengakses objek dokumen & memeriksa struktur DOM di TypeScript
-// ============================================================================
+// ============================================================
+// 01 · Apa itu DOM & Pohon DOM — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/01-apa-itu-dom/index.html di browser)
+// ============================================================
 
 // 1. Memeriksa Objek Global 'document'
 // Di TypeScript, 'document' bertipe Document (disediakan oleh library DOM bawaan).

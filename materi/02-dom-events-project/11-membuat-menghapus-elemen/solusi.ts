@@ -1,7 +1,7 @@
-// ============================================================================
-// 11 · Membuat, Menambah & Menghapus Elemen
-// SOLUSI: Menambahkan Item Secara Dinamis dengan Tombol Selesai
-// ============================================================================
+// ============================================================
+// 11 · Membuat & Menghapus Elemen — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/11-membuat-menghapus-elemen/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen '#daftar-tugas'

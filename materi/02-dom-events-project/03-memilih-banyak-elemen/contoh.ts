@@ -1,7 +1,7 @@
-// ============================================================================
-// 03 · Memilih Banyak Elemen (Selecting Multiple Elements)
-// CONTOH: querySelectorAll, NodeList, dan Konversi ke Array
-// ============================================================================
+// ============================================================
+// 03 · Memilih Banyak Elemen — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/03-memilih-banyak-elemen/index.html di browser)
+// ============================================================
 
 // 1. Memilih Semua Badge Topik (NodeListOf<HTMLSpanElement>)
 const semuaBadge =

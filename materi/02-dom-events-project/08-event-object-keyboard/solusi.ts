@@ -1,7 +1,7 @@
-// ============================================================================
-// 08 · Objek Event & Keyboard Events
-// SOLUSI: Shortcut Keyboard untuk Membuka & Menutup Popup
-// ============================================================================
+// ============================================================
+// 08 · Event Object & Keyboard — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/08-event-object-keyboard/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen '#mini-popup'

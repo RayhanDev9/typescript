@@ -1,7 +1,7 @@
-// ============================================================================
-// 02 · Memilih Elemen Tunggal (Selecting Single Element)
-// CONTOH: Menggunakan getElementById & querySelector dengan Generic Type
-// ============================================================================
+// ============================================================
+// 02 · Memilih Elemen Tunggal — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/02-memilih-elemen-tunggal/index.html di browser)
+// ============================================================
 
 // 1. Menggunakan document.getElementById
 // Tipe otomatis: HTMLElement | null

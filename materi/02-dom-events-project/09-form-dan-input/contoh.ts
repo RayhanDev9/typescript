@@ -1,7 +1,7 @@
-// ============================================================================
-// 09 · Form Handling & Input Pengguna
-// CONTOH: Membaca Input, Konversi Angka, Checkbox, dan SubmitEvent
-// ============================================================================
+// ============================================================
+// 09 · Form Handling & Input Pengguna — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/09-form-dan-input/index.html di browser)
+// ============================================================
 
 // 1. Mengambil Elemen Form dan Kontrolnya
 const formDaftar = document.querySelector<HTMLFormElement>("#form-daftar")!;

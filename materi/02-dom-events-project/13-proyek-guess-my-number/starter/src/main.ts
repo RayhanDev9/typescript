@@ -1,5 +1,6 @@
 // ============================================================
-// PROYEK 1: GUESS MY NUMBER — STARTER
+// 13 · Proyek 1: Guess My Number — Starter
+// Jalankan: npm run dom (buka materi/02-dom-events-project/13-proyek-guess-my-number/starter/index.html di browser)
 // ============================================================
 
 // --- STEP 1: Inisialisasi State Permainan ---

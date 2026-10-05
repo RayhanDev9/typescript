@@ -1,7 +1,7 @@
-// ============================================================================
-// 09 · Form Handling & Input Pengguna
-// SOLUSI: Validasi Form & Konversi Angka
-// ============================================================================
+// ============================================================
+// 09 · Form Handling & Input Pengguna — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/09-form-dan-input/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen

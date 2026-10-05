@@ -1,5 +1,6 @@
 // ============================================================
-// PROYEK 2: MODAL WINDOW — STARTER
+// 14 · Proyek 2: Modal Window — Starter
+// Jalankan: npm run dom (buka materi/02-dom-events-project/14-proyek-modal-window/starter/index.html di browser)
 // ============================================================
 
 // --- STEP 1: Pilih Elemen-Elemen DOM ---

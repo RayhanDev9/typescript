@@ -1,7 +1,7 @@
-// ============================================================================
-// 04 · Membaca & Mengubah Konten Teks serta HTML
-// LATIHAN: Mengubah Teks & Render Data Mahasiswa dengan innerHTML
-// ============================================================================
+// ============================================================
+// 04 · Membaca & Mengubah Konten — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/04-membaca-mengubah-konten/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

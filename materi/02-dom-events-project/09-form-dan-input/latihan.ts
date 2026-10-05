@@ -1,7 +1,7 @@
-// ============================================================================
-// 09 · Form Handling & Input Pengguna
-// LATIHAN: Validasi Form & Konversi Angka
-// ============================================================================
+// ============================================================
+// 09 · Form Handling & Input Pengguna — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/09-form-dan-input/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

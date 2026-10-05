@@ -1,7 +1,7 @@
-// ============================================================================
-// 03 · Memilih Banyak Elemen (Selecting Multiple Elements)
-// LATIHAN: Manipulasi Koleksi Elemen & Konversi Array
-// ============================================================================
+// ============================================================
+// 03 · Memilih Banyak Elemen — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/03-memilih-banyak-elemen/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini dengan tepat.

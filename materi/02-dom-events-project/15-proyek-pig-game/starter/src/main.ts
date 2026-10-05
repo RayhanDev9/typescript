@@ -1,5 +1,6 @@
 // ============================================================
-// PROYEK 3: PIG GAME (GAME DADU 2 PEMAIN) — STARTER
+// 15 · Proyek 3: Pig Game — Starter
+// Jalankan: npm run dom (buka materi/02-dom-events-project/15-proyek-pig-game/starter/index.html di browser)
 // ============================================================
 
 // --- STEP 1: Definisi Tipe dan State Management ---

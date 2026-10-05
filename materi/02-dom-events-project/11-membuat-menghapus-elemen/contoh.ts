@@ -1,7 +1,7 @@
-// ============================================================================
-// 11 · Membuat, Menambah & Menghapus Elemen
-// CONTOH: createElement, append, prepend, dan remove
-// ============================================================================
+// ============================================================
+// 11 · Membuat & Menghapus Elemen — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/11-membuat-menghapus-elemen/index.html di browser)
+// ============================================================
 
 // 1. Mengambil Elemen Kontrol
 const inputTugas = document.querySelector<HTMLInputElement>("#input-tugas")!;

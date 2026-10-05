@@ -1,7 +1,7 @@
-// ============================================================================
-// 03 · Memilih Banyak Elemen (Selecting Multiple Elements)
-// SOLUSI: Manipulasi Koleksi Elemen & Konversi Array
-// ============================================================================
+// ============================================================
+// 03 · Memilih Banyak Elemen — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/03-memilih-banyak-elemen/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil semua elemen badge dengan class '.badge-topik' menggunakan document.querySelectorAll.

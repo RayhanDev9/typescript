@@ -1,7 +1,7 @@
-// ============================================================================
-// 08 · Objek Event & Keyboard Events
-// LATIHAN: Shortcut Keyboard untuk Membuka & Menutup Popup
-// ============================================================================
+// ============================================================
+// 08 · Event Object & Keyboard — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/08-event-object-keyboard/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

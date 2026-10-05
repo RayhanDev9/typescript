@@ -1,7 +1,7 @@
-// ============================================================================
-// 06 · Memanipulasi Gaya CSS (Styles & Classes)
-// LATIHAN: Mengubah Tampilan Visual & Status Class
-// ============================================================================
+// ============================================================
+// 06 · Manipulasi Style & Class — Latihan
+// Jalankan: npm run dom (buka materi/02-dom-events-project/06-manipulasi-style-dan-class/index.html di browser)
+// ============================================================
 
 // INSTRUKSI:
 // Selesaikan semua TODO di bawah ini.

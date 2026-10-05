@@ -1,7 +1,7 @@
-// ============================================================================
-// 05 · Manipulasi Atribut & Dataset HTML
-// CONTOH: Mengakses & Memodifikasi Atribut Standar serta dataset HTML5
-// ============================================================================
+// ============================================================
+// 05 · Manipulasi Atribut & Dataset — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/05-manipulasi-atribut-dataset/index.html di browser)
+// ============================================================
 
 // 1. Membaca & Memodifikasi Atribut Standar Formulir
 const inputVoucher = document.querySelector<HTMLInputElement>("#input-voucher")!;

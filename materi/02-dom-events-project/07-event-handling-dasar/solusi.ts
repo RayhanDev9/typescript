@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Menangani Event Pengguna (Event Handling Dasar)
-// SOLUSI: Menghitung Klik & Merespons Dobel Klik
-// ============================================================================
+// ============================================================
+// 07 · Event Handling Dasar — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/07-event-handling-dasar/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen '#btn-hitung'

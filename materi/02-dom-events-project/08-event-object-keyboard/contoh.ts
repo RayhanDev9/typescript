@@ -1,7 +1,7 @@
-// ============================================================================
-// 08 · Objek Event & Keyboard Events
-// CONTOH: KeyboardEvent, e.key, dan e.preventDefault()
-// ============================================================================
+// ============================================================
+// 08 · Event Object & Keyboard — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/08-event-object-keyboard/index.html di browser)
+// ============================================================
 
 // 1. Mengambil Elemen UI
 const displayKey = document.querySelector<HTMLDivElement>("#display-key")!;

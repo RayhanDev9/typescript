@@ -1,5 +1,6 @@
 // ============================================================
-// PROYEK 1: GUESS MY NUMBER — FINAL (SOLUSI REFAKTOR LENGKAP)
+// 13 · Proyek 1: Guess My Number — Final
+// Jalankan: npm run dom (buka materi/02-dom-events-project/13-proyek-guess-my-number/final/index.html di browser)
 // ============================================================
 
 // --- 1. State Permainan ---

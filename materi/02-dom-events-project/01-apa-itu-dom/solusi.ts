@@ -1,7 +1,7 @@
-// ============================================================================
-// 01 · Apa itu DOM & Pohon DOM (DOM Tree)
-// SOLUSI: Mengakses Dokumen & Menampilkan Info Sederhana
-// ============================================================================
+// ============================================================
+// 01 · Apa itu DOM & Pohon DOM — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/01-apa-itu-dom/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Buat variabel bertipe string bernama 'judulAwal' yang menyimpan nilai dari document.title saat ini.

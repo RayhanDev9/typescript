@@ -1,7 +1,7 @@
-// ============================================================================
-// 06 · Memanipulasi Gaya CSS (Styles & Classes)
-// CONTOH: Menggunakan classList & Inline Styles di TypeScript
-// ============================================================================
+// ============================================================
+// 06 · Manipulasi Style & Class — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/06-manipulasi-style-dan-class/index.html di browser)
+// ============================================================
 
 // 1. Mengambil Elemen yang Dibutuhkan
 const kotakPreview = document.querySelector<HTMLDivElement>("#kotak-preview")!;

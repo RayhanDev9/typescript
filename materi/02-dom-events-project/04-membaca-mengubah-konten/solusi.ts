@@ -1,7 +1,7 @@
-// ============================================================================
-// 04 · Membaca & Mengubah Konten Teks serta HTML
-// SOLUSI: Mengubah Teks & Render Data Mahasiswa dengan innerHTML
-// ============================================================================
+// ============================================================
+// 04 · Membaca & Mengubah Konten — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/04-membaca-mengubah-konten/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen judul '#judul-halaman' menggunakan querySelector<HTMLHeadingElement>.

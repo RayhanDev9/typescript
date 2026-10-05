@@ -1,7 +1,7 @@
-// ============================================================================
-// 06 · Memanipulasi Gaya CSS (Styles & Classes)
-// SOLUSI: Mengubah Tampilan Visual & Status Class
-// ============================================================================
+// ============================================================
+// 06 · Manipulasi Style & Class — Solusi
+// Jalankan: npm run dom (buka materi/02-dom-events-project/06-manipulasi-style-dan-class/index.html di browser)
+// ============================================================
 
 // TODO 1:
 // Ambil elemen judul '#judul-kartu' dan ubah warna font menjadi "#38bdf8"

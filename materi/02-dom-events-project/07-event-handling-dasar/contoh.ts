@@ -1,7 +1,7 @@
-// ============================================================================
-// 07 · Menangani Event Pengguna (Event Handling Dasar)
-// CONTOH: addEventListener, removeEventListener, dan MouseEvent
-// ============================================================================
+// ============================================================
+// 07 · Event Handling Dasar — Contoh
+// Jalankan: npm run dom (buka materi/02-dom-events-project/07-event-handling-dasar/index.html di browser)
+// ============================================================
 
 // 1. Mengambil Elemen
 const btnHitung = document.querySelector<HTMLButtonElement>("#btn-hitung")!;
