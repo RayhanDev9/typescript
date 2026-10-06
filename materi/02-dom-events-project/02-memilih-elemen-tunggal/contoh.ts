@@ -5,7 +5,7 @@
 
 // 1. Menggunakan document.getElementById
 // Tipe otomatis: HTMLElement | null
-const judulUtama = document.getElementById("judul-utama");
+const judulUtama = document.getElementById("judul-utama") ;
 
 if (judulUtama !== null) {
   console.log("Judul ditemukan:", judulUtama.textContent);
